@@ -43,4 +43,7 @@ search.oninput = () => {
 function closeGame() {
     player.style.display = 'none';
     frame.src = '';
+}function loadGame(gameUrl) {
+    // This finds the "window" in the HTML and changes the link
+    document.getElementById('game-canvas').src = gameUrl;
 }
