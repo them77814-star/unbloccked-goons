@@ -47,3 +47,8 @@ function closeGame() {
     // This finds the "window" in the HTML and changes the link
     document.getElementById('game-canvas').src = gameUrl;
 }
+function playSonic() {
+    // This points the iframe to the game link
+    var gameLink = "https://games.construct.net/45407/latest";
+    document.getElementById('main-game').src = gameLink;
+}
