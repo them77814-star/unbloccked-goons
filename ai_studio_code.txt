@@ -1,0 +1,22 @@
+[
+    {
+        "title": "2048",
+        "thumb": "https://play-lh.googleusercontent.com/87tIn69uX-VpIuX5is86u9Z05P6I3-70p0pU5E5r5eI",
+        "url": "https://play2048.co/"
+    },
+    {
+        "title": "Slope",
+        "thumb": "https://m.media-amazon.com/images/I/41u68z85f3L.png",
+        "url": "https://kdata1.com/2020/05/slope/"
+    },
+    {
+        "title": "Minecraft Classic",
+        "thumb": "https://www.minecraft.net/content/dam/games/minecraft/key-art/Minecraft-Classic.jpg",
+        "url": "https://classic.minecraft.net/"
+    },
+    {
+        "title": "Doodle Jump",
+        "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_xNq4rY5p0X9Z8Y",
+        "url": "https://doodlejump.io/"
+    }
+]

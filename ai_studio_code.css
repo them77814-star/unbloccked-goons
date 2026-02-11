@@ -1,0 +1,78 @@
+* { box-sizing: border-box; }
+body { 
+    margin: 0; 
+    background: #09090b; 
+    color: white; 
+    font-family: sans-serif; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background: #18181b;
+    border-bottom: 1px solid #27272a;
+}
+
+.logo { font-size: 24px; font-weight: bold; color: #8b5cf6; }
+
+#search {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #3f3f46;
+    background: #09090b;
+    color: white;
+}
+
+.container { padding: 40px 5%; }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #18181b;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 1px solid #27272a;
+}
+
+.card:hover { transform: scale(1.05); border-color: #8b5cf6; }
+
+.card img { width: 100%; height: 150px; object-fit: cover; }
+
+.card p { padding: 10px; text-align: center; margin: 0; }
+
+/* Game Player */
+.player-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: black;
+    z-index: 100;
+}
+
+.player-controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #18181b;
+}
+
+iframe { width: 100%; height: calc(100% - 50px); }
+
+button {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
